@@ -7,8 +7,6 @@ import com.alibaba.rocketmq.client.exception.MQClientException;
 
 public class TestConsumer {
 
-	//啊的flak觉得是flak速度； 
-	//这是一次测试
 	public static void main(String[] args) throws MQClientException{
 		DefaultMQPullConsumer consumer =new DefaultMQPullConsumer();
 		consumer.createTopic(UUID.randomUUID().toString(), "SIMON", 1);
