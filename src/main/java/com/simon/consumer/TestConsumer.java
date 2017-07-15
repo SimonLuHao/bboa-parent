@@ -6,8 +6,8 @@ import com.alibaba.rocketmq.client.consumer.DefaultMQPullConsumer;
 import com.alibaba.rocketmq.client.exception.MQClientException;
 
 public class TestConsumer {
-
-	//ÁË½âÀë¿ª¼ÒÁË¼ûÁÂ¼ûÁÂ¿´¼ûÁËÁË½»Á÷¿Õ¼äÀë¿ª¾Í
+	//kasjdflakjsdflakjdflakjsdflakjsdf
+	//äº†è§£ç¦»å¼€å®¶äº†è§è°…è§è°…çœ‹è§äº†äº†äº¤æµç©ºé—´ç¦»å¼€å°±
 	public static void main(String[] args) throws MQClientException{
 		DefaultMQPullConsumer consumer =new DefaultMQPullConsumer();
 		consumer.createTopic(UUID.randomUUID().toString(), "SIMON", 1);
